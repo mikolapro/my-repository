@@ -20,6 +20,7 @@
         a:active {
             background-color: yellow;
         }
+
         h2 {
             background-color: lightgray;
             padding: 5px;
@@ -27,9 +28,46 @@
         }
 
         p {
-            background-color: lightyellow;
             padding: 10px;
             border: 2px solid yellow;
+        }
+        #basic-info {
+            background-color: #ccffcc;
+        }
+
+        #childhood {
+            background-color: #ffcccc; 
+        }
+
+        #school-years {
+            background-color: #99ccff; 
+        }
+
+        #extracurricular {
+            background-color: #ffff99; 
+        }
+
+        #university {
+            background-color: #ff99ff; 
+        }
+        #basic-info p {
+            color: #333;
+        }
+
+        #childhood p {
+            color: #333; 
+        }
+
+        #school-years p {
+            color: #333; 
+        }
+
+        #extracurricular p {
+            color: #333; 
+        }
+
+        #university p {
+            color: #333; 
         }
     </style>
 </head>
@@ -60,4 +98,3 @@
     <p>Я поступив в Прикарпатський національний університет імені Василя Стефаника на спеціальність 122 - комп'ютерні науки. Вчуся вже півтори місяці і вчуся доволі не погано. Я люблю інколи почитати книжки в міській бібліотеці.</p>
 </body>
 </html>
-
