@@ -1,1 +1,73 @@
 
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #121010;
+            font-size: 22px; /* Set font size to 22px */
+            text-align: center; /* Center align the h1 element */
+        }
+        h3 {
+            color: #0c0c0e;
+            font-size: 120%; /* Increase font size for h3 elements by 20% */
+            font-weight: bold; /* Make h3 elements semi-bold */
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li a {
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #0f0f11;
+            border: 2px solid #0d0d0e;
+            width: 150px;
+            text-align: center;
+        }
+        li a:hover {
+            background-color: #ab8bc1;
+            color: #000000;
+        }
+        li a:active {
+            background-color: #ffff00;
+            color: #000;
+        }
+        #basic_info {
+            background-color: #79adc3;
+            color: #000;
+            padding: 10px;
+        }
+        #childhood {
+            background-color: #d5d088;
+            color: #000;
+            padding: 10px;
+        }
+        #school_years {
+            background-color: #678867;
+            color: #000;
+            padding: 10px;
+        }
+        #extracurricular {
+            background-color: #ffffcc;
+            color: #090909;
+            padding: 10px;
+        }
+        #university {
+            background-color: #cf8383;
+            color: #000;
+            padding: 10px;
+        }
+        a {
+            font-style: italic; /* Make all anchor links italic */
+        }
+        #table-of-contents {
+            text-align: center; /* Center align the "Зміст" header */
+        }
+        #table-of-contents a {
+            font-weight: bold; /* Make table of contents links semi-bold */
+        }
+        #go-up {
+            text-transform: uppercase; /* Change "Уверх" to uppercase */
+        }
