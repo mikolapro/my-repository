@@ -4,13 +4,13 @@
         }
         h1 {
             color: #121010;
-            font-size: 22px; /* Set font size to 22px */
-            text-align: center; /* Center align the h1 element */
+            font-size: 22px; 
+            text-align: center; 
         }
         h3 {
             color: #0c0c0e;
-            font-size: 120%; /* Increase font size for h3 elements by 20% */
-            font-weight: bold; /* Make h3 elements semi-bold */
+            font-size: 120%; 
+            font-weight: bold; 
         }
         ul {
             list-style: none;
@@ -60,14 +60,14 @@
             padding: 10px;
         }
         a {
-            font-style: italic; /* Make all anchor links italic */
+            font-style: italic; 
         }
         #table-of-contents {
-            text-align: center; /* Center align the "Зміст" header */
+            text-align: center; 
         }
         #table-of-contents a {
-            font-weight: bold; /* Make table of contents links semi-bold */
+            font-weight: bold;
         }
         #go-up {
-            text-transform: uppercase; /* Change "Уверх" to uppercase */
+            text-transform: uppercase; 
         }
