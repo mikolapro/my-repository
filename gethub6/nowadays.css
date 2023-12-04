@@ -1,1 +1,50 @@
 
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            font-size: 22px; /* Updated font size */
+            color: #40826d;
+            margin-top: 20px;
+            text-align: center; /* Center-align the title */
+        }
+
+        a {
+            text-decoration: italic;
+            color: #40826d;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #40826d;
+            text-align: center; /* Center-align the headings */
+            margin-top: 20px;
+        }
+
+        ul li:nth-child(odd) {
+            background-color: #ddd;
+            color: #40826d;
+            padding: 5px;
+        }
+
+        ul li:nth-child(even) {
+            background-color: #fff;
+            color: #40826d;
+            padding: 5px;
+        }
+
+        ol li:nth-child(3):hover,
+        ol li:nth-child(5):hover {
+            text-decoration: underline;
+            cursor: pointer;
+            color: blue;
+        }
+
+        ol li:nth-child(4) {
+            background-color: #add8e6;
+            padding: 5px;
+        }
+
