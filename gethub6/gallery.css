@@ -1,1 +1,58 @@
 
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 20px; /* Set font size to 20px */
+            margin-top: 20px; /* Add top margin */
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        a {
+            text-decoration: italic; /* Make the "Назад на головну" text italic */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto; /* Center-align all images */
+        }
+
+        .center-align {
+            text-align: center; /* Center-align elements with this class */
+        }
+
+        .smaller-font {
+            font-size: 70%; /* Make the font 30% smaller */
+        }
+
+        .bigger-font {
+            font-size: 130%; /* Make the font 30% bigger */
+        }
+
+        /* Design for image captions */
+        .image-caption {
+            font-size: 14px;
+            color: #444;
+        }
+
+        /* Design for the main content block */
+        .content-block {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px auto;
+            text-align: left;
+        }
