@@ -1,50 +1,206 @@
-
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-        }
-
-        h1 {
-            font-size: 22px;
-            color: #40826d;
-            margin-top: 20px;
-            text-align: center; 
-        }
-
-        a {
-            text-decoration: italic;
-            color: #40826d;
-        }
-
-        h2 {
-            font-size: 20px;
-            color: #40826d;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        ul li:nth-child(odd) {
-            background-color: #ddd;
-            color: #40826d;
-            padding: 5px;
-        }
-
-        ul li:nth-child(even) {
-            background-color: #fff;
-            color: #40826d;
-            padding: 5px;
-        }
-
-        ol li:nth-child(3):hover,
-        ol li:nth-child(5):hover {
-            text-decoration: underline;
-            cursor: pointer;
-            color: blue;
-        }
-
-        ol li:nth-child(4) {
-            background-color: #add8e6;
-            padding: 5px;
-        }
-
+.list-item-odd {
+    background-color: grey;
+    color: black;
+  }
+  
+  .list-item-even {
+    color: black;
+  }
+  
+  .list-item-third,
+  .list-item-fifth {
+    cursor: pointer;
+  }
+  
+  .list-item-fourth {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .back-home-btn {
+    font-style: italic;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .row-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .block {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* desktop */
+  @media (min-width: 992px) {
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 {
+      flex: 0 0;
+    }
+  
+    .col-lg-1 {
+      flex-basis: 8.33%;
+    }
+    .col-lg-2 {
+      flex-basis: 16.66%;
+    }
+    .col-lg-3 {
+      flex-basis: 25%;
+    }
+    .col-lg-4 {
+      flex-basis: 33.33%;
+    }
+    .col-lg-5 {
+      flex-basis: 41.66%;
+    }
+    .col-lg-6 {
+      flex-basis: 50%;
+    }
+    .col-lg-7 {
+      flex-basis: 58.33%;
+    }
+    .col-lg-8 {
+      flex-basis: 66.66%;
+    }
+    .col-lg-9 {
+      flex-basis: 75%;
+    }
+    .col-lg-10 {
+      flex-basis: 83.33%;
+    }
+    .col-lg-11 {
+      flex-basis: 91.66%;
+    }
+    .col-lg-12 {
+      flex-basis: 100%;
+    }
+  }
+  
+  /* tablet */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      flex: 0 0;
+    }
+    .col-md-1 {
+      flex-basis: 8.33%;
+    }
+    .col-md-2 {
+      flex-basis: 16.66%;
+    }
+    .col-md-3 {
+      flex-basis: 25%;
+    }
+    .col-md-4 {
+      flex-basis: 33.33%;
+    }
+    .col-md-5 {
+      flex-basis: 41.66%;
+    }
+    .col-md-6 {
+      flex-basis: 50%;
+    }
+    .col-md-7 {
+      flex-basis: 58.33%;
+    }
+    .col-md-8 {
+      flex-basis: 66.66%;
+    }
+    .col-md-9 {
+      flex-basis: 75%;
+    }
+    .col-md-10 {
+      flex-basis: 83.33%;
+    }
+    .col-md-11 {
+      flex-basis: 91.66%;
+    }
+    .col-md-12 {
+      flex-basis: 100%;
+    }
+  }
+  
+  /* mobile */
+  @media (max-width: 768px) {
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12 {
+      flex: 0 0;
+    }
+  
+    .col-sm-1 {
+      flex-basis: 8.33%;
+    }
+    .col-sm-2 {
+      flex-basis: 16.66%;
+    }
+    .col-sm-3 {
+      flex-basis: 25%;
+    }
+    .col-sm-4 {
+      flex-basis: 33.33%;
+    }
+    .col-sm-5 {
+      flex-basis: 41.66%;
+    }
+    .col-sm-6 {
+      flex-basis: 50%;
+    }
+    .col-sm-7 {
+      flex-basis: 58.33%;
+    }
+    .col-sm-8 {
+      flex-basis: 66.66%;
+    }
+    .col-sm-9 {
+      flex-basis: 75%;
+    }
+    .col-sm-10 {
+      flex-basis: 83.33%;
+    }
+    .col-sm-11 {
+      flex-basis: 91.66%;
+    }
+    .col-sm-12 {
+      flex-basis: 100%;
+    }
+  }
