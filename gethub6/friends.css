@@ -1,42 +1,78 @@
-
-        body {
-            text-align: center; 
-        }
-
-        h1 {
-            font-size: 22px; 
-        }
-
-        p {
-            font-style: italic; 
-        }
-
-        h2 {
-            background-color: green; 
-            color: white; 
-            text-align: center; 
-            font-weight: bold; 
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center; 
-        }
-
-        tr:nth-child(even) {
-            background-color: lightgray;
-        }
-
-        tr:nth-child(odd) {
-            background-color: lightyellow;
-        }
-
-        td:last-child {
-            text-align: right; /* Right-align the last column */
-        }
+thead {
+    text-align: center;
+    background-color: lightgreen;
+    font-family: "Open Sans";
+    font-weight: 600;
+  }
+  
+  .data-row-odd {
+    background-color: lightgrey;
+    color: black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  tr {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  th {
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .back-home-btn {
+    font-style: italic;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  td:last-of-type {
+    text-align: right;
+  }
+  
+  /* desktop */
+  @media (min-width: 992px) {
+    th {
+      font-size: 130%;
+    }
+  
+    td {
+      font-size: 120%;
+    }
+  }
+  
+  /* tablet */
+  @media (min-width: 768px) and (max-width: 992px) {
+    th {
+      font-size: 120%;
+    }
+  
+    td {
+      font-size: 110%;
+    }
+  }
+  
+  /* mobile */
+  @media (max-width: 768px) {
+    th {
+      font-size: 110%;
+    }
+  }
