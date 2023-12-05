@@ -31,12 +31,12 @@
   }
   
   #childhood {
-    background-color: blue;
-    color: yellow;
+    background-color: rgb(255, 0, 4);
+    color: rgb(253, 253, 253);
   }
   #childhood > .to-contents-btn {
-    background-color: blue;
-    color: yellow;
+    background-color: rgb(255, 0, 4);
+    color: rgb(253, 253, 253);
   }
   
   #school {
@@ -58,11 +58,11 @@
   }
   
   #university {
-    background-color: lightsalmon;
+    background-color: rgb(122, 255, 255);
     color: rgb(55, 55, 55);
   }
   #university > .to-contents-btn {
-    background-color: lightsalmon;
+    background-color: rgb(122, 255, 255);
     color: rgb(55, 55, 55);
   }
   
