@@ -19,13 +19,17 @@ thead {
     text-align: center;
     padding: 5px;
   }
-  
+  .petro{
+    background-color:rgb(16, 91, 126);
+  }
   th {
     text-align: center;
     border: 2px solid black;
     padding: 5px;
   }
-  
+  .pawlo{
+    background-color: rgb(16, 91, 126);
+  }
   td {
     border: 1px solid black;
     padding: 5px;
