@@ -2,7 +2,7 @@
     color: blue;
   }
   .link1:visited {
-    color: yellow;
+    color: rgb(20, 29, 124);
   }
   
   .link2:link {
@@ -13,7 +13,7 @@
   }
   
   .link3:link {
-    color: green;
+    color: rgb(101, 100, 18);
   }
   .link3:visited {
     color: lightskyblue;
